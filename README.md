@@ -14,11 +14,24 @@ Assign the value of the first variable to the second variable.
 ### Step 4:  
 Assign the value in temporary variable to the first variable
 ### Step 5: 
-Print both the values it would be interchanged
+Print both the values it would be 
+interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
+```
+#Program to swap two values.
+#Developed by: PRAVEEN D
+#RegisterNumber:22005917
+a,b=int(input()),int(input())
+t=b
+b=a
+a=t
+print("Swapped values are:",a,b)
+```
 
+##OUTPUT:
+![output](output.png)
 
 
 ## RESULT:
